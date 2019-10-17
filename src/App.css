@@ -1,0 +1,64 @@
+#app {
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+
+}
+
+.grid{
+
+  display: inline-block;
+  background-image: url(./Assets/bg_general.png);
+
+}
+
+.grid td {
+  display: inline-block;
+  height: 150px;
+  padding: 50px 30px;
+  border: 2px solid orange;
+  text-align: center;
+  margin: 24px;
+
+}
+
+.grid td:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.reserved {
+  background: red;
+  color: #fff;
+  display: inline-block !important;
+}
+
+.block{
+
+ flexDirection: 'row'; 
+ justifyContent: 'center'; 
+ alignItems: 'center'; 
+
+
+}
+
+/*
+.reserved::after {
+  content: 'RESERVED'
+}
+
+.available::after {
+  content: 'AVAILABLE'
+}
+*/
+
+.available {
+  color: #fff;
+}
+
+
+li {
+  list-style: none;
+}
